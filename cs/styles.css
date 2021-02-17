@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat',sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat',sans-serif !important;
+}
+.container-padding{
+  padding: 5% 15%;
+}
+.lg-container-padding{
+  padding: 15% 15%;
+}
+.text-padding{
+  padding: 10px 0px 0px 0px;
+}
+/* font styles and aligns */
+.font-mont{
+  font-family: 'Montserrat',sans-serif !important;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+/* spacing */
+.space-1{
+  letter-spacing: 1.5px;
+}
+.space-2{
+  letter-spacing: 2px;
+}
+/* background colors  */
+.bg-blue{
+  background-color: #007caa;
+}
+.bg-white{
+  background-color: #e3e3e3;
+}
+/* font colors */
+.font-black{
+  color: #18191b;
+}
+.font-white{
+  color: #e3e4e8;
+}
+.font-blue{
+  color: #007caa;
+}
+
+/* font size */
+.xl-heading{
+  font-size: 5.5rem;
+}
+.big-heading{
+  font-size: 3.5rem;
+}
+.medium-heading{
+  font-size: 2rem !important;
+}
+.small-heading{
+  font-size: 1.5rem;
+}
+.xsmall-heading{
+  font-size: 1.2rem;
+}
+/* fonts weight */
+.font-700{
+  font-weight: 700;
+}
+.font-900{
+  font-weight: 900;
+}
+
+/* heading section */
+.nav-item{
+  padding: 0px 15px 0px 20px;
+}
+.navbar-container{
+  padding: 0px 0px 100px 0px !important;
+}
+.heading-btn{
+  margin: 25px 0px 0px 0px;
+}
+.heading-img{
+  width: 70%;
+}
+
+/* about section */
+.icon-hover:hover{
+  color: #007caa;
+}
+
+/* features section */
+.feature-img{
+  border-radius: 25px;
+  width: 60%;
+}
+.feature-heading{
+  padding: 0px 0px 50px 0px;
+}
+.feature-padding{
+  padding: 50px 0px 75px 0px;
+}
+/* cta */
+.cta-btn{
+  margin: 35px 0px 0px 0px;
+}
+/* footer */
+.footer-icon{
+  padding: 20px 20px 30px 0px;
+}
+/* MEDIA  */
+@media (max-width:1030px){
+  #heading{
+    text-align: center;
+  }
+  #heading .col-lg-6,.text-right{
+    text-align: center !important;
+  }
+  .heading-img{
+    margin: 30px 0px 0px 0px;
+  }
+  .nav-item{
+    padding: 40px 0px 20px 0px;
+    font-size: 1.4rem;
+  }
+  #features{
+    text-align: center;
+  }
+  .feature-padding{
+    padding: 35px 0px 35px 0px;
+  }
+}
